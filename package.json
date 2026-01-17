@@ -1,0 +1,21 @@
+{
+  "name": "isnonnullobject2",
+  "version": "1.0.1",
+  "description": "Check if a value is a non-null object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "object",
+    "is"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "@extremejs/utils": "^1.0.0-beta.22",
+    "is-null": "^1.0.1",
+    "is-unnull": "^1.0.0",
+    "not": "^0.1.0"
+  }
+}
