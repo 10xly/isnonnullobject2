@@ -1,17 +1,26 @@
 {
   "name": "isnonnullobject2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if a value is a non-null object.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "object",
     "is"
   ],
-  "author": "me",
+  "homepage": "https://github.com/10xly/isnonnullobject2#readme",
+  "bugs": {
+    "url": "https://github.com/10xly/isnonnullobject2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10xly/isnonnullobject2.git"
+  },
   "license": "MIT",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@extremejs/utils": "^1.0.0-beta.22",
     "is-null": "^1.0.1",
