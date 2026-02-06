@@ -1,8 +1,10 @@
-const { TYPE } = require('@extremejs/utils')
-const isNull = require('is-null')
-const isUnnull = require('is-unnull')
-const not = require('not')
+const isObject = require("@is-(unknown)/is-object")
+const isNull = require("@is-(unknown)/is-null")
+const and = require("es-logical-and-operator")
+const not = require("es-logical-not-operator")
 
-module.exports = function isNonNullObject(value) {
-  return typeof value === TYPE.OBJECT && (isUnnull(value) && not(() => isNull(value))())
+function isNonNullObject(value) {
+  return and(isObject(value), not(isNull(value)))
 }
+
+module.exports = isNonNullObject

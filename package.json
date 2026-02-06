@@ -1,6 +1,6 @@
 {
   "name": "isnonnullobject2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check if a value is a non-null object.",
   "keywords": [
     "object",
